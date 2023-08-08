@@ -3,9 +3,11 @@
 
 # Gradient Descent
 
-    ## What is Gradient Descent?
+## [What is Gradient?](!https://www.youtube.com/watch?v=Yu8Yv_izi3A&t=241s)
+        Differentiation is used to calculate the rate of change of a function (how quick a function is changing), rate of change is known as gradient/tangent.
 
-    ## Why it is used in Deep learning?
+## Why it is used in Deep learning?
+        Initially Neural Network's weight are init randomly and calculate the loss, these steps are run iteratively. When the loss are plot in a grap it looks like a slop of x^2, So gradient is used to calculate the tangent and move points accordingly
 
 ## Derivation of Gradient Descent.
         For example of the derivation i am going to use Mean Square Error (MSE).
@@ -37,8 +39,8 @@ $\displaystyle \frac{\partial }{\partial x} (f[g(x)]) =  f^{'}[g(x)].g^{'}(x)$
 
 example 1. 
 $$\displaystyle \frac{\partial }{\partial x} [5x + 3]^4 =  4[5x+3] ^ {3} . [5 + 0] \\ 
-\ \ \ \ \ \ \ \ \ \ \ \ \ = 4[5x+3] ^ {3} . 5  \\
-\ \ \ \ \ \ \ \ \ \ \ \ = 20 [5x + 3]^{3}
+= 4[5x+3] ^ {3} . 5  \\
+= 20 [5x + 3]^{3}
 $$
 
 example 2. 
@@ -48,7 +50,7 @@ Back to MSE
 
 $$
 MSE = \frac{1}{n}\sum_{i = 0}^{n} (y - (wx + b))^{2} \\
-\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ derivation \ of \ MSE=  \frac{1}{n}\sum_{i = 0}^{n} 2(y - (wx + b)) . (Partial \ derivation \ of \ w \ and \ b) -> eq 1 \\
+derivation \ of \ MSE=  \frac{1}{n}\sum_{i = 0}^{n} 2(y - (wx + b)) . (Partial \ derivation \ of \ w \ and \ b) -> eq 1 \\
 $$
 (Partial derivation of w and b) this part is going to replace by derivation of w and b   
 Calculate the inner derivation of w and b  
