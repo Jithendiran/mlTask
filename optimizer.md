@@ -48,8 +48,7 @@ $$\displaystyle \frac{\partial }{\partial x} {[x^{2} - 3x]}^{5} =  5[x^{2} - 3x]
 
 Back to MSE
 
-$$
-MSE = \frac{1}{n}\sum_{i = 0}^{n} (y - (wx + b))^{2} \\
+$$MSE = \frac{1}{n}\sum_{i = 0}^{n} (y - (wx + b))^{2} \\
 derivation \ of \ MSE=  \frac{1}{n}\sum_{i = 0}^{n} 2(y - (wx + b)) . (Partial \ derivation \ of \ w \ and \ b) -> eq 1 \\
 $$
 (Partial derivation of w and b) this part is going to replace by derivation of w and b   
@@ -61,9 +60,7 @@ Partial derivation of w
 $$\displaystyle \frac{\partial }{\partial w} (y - (wx + b)) =  -x $$
 
 Combine with eq1
-$$
-
-=  \frac{1}{n}\sum_{i = 0}^{n} 2(y - (wx + b))\ . -x \\
+$$=  \frac{1}{n}\sum_{i = 0}^{n} 2(y - (wx + b))\ . -x \\
 =  \frac{1}{n}\sum_{i = 0}^{n} -2x(y - (wx + b))\  \\
 $$
 Above is final derivation of w 
@@ -73,16 +70,13 @@ Partial derivation of b
 
 $$\displaystyle \frac{\partial }{\partial b} (y - (wx + b)) =  -1 $$
 Combine with eq1
-$$
-
-=  \frac{1}{n}\sum_{i = 0}^{n} 2(y - (wx + b))\ . -1 \\
+$$=  \frac{1}{n}\sum_{i = 0}^{n} 2(y - (wx + b))\ . -1 \\
 =  \frac{1}{n}\sum_{i = 0}^{n} -2(y - (wx + b))\ \\
 $$
 Above is final derivation of w   
 In the final derivation 2 is small value so it can be negligible.
 
-$$
-\displaystyle \frac{\partial }{\partial w} =  - \frac{1}{n}\sum_{i = 0}^{n} x(y - (wx + b)) \\
+$$\displaystyle \frac{\partial }{\partial w} =  - \frac{1}{n}\sum_{i = 0}^{n} x(y - (wx + b)) \\
  \\
 \displaystyle \frac{\partial }{\partial w} =   - \frac{1}{n}\sum_{i = 0}^{n} (y - (wx + b))
 $$
