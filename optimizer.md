@@ -4,7 +4,7 @@
 # Gradient Descent
 
 ## [What is Gradient?](!https://www.youtube.com/watch?v=Yu8Yv_izi3A&t=241s)
-        Differentiation is used to calculate the rate of change of a function (how quick a function is changing), rate of change is known as gradient/tangent.
+        Differentiation is used to calculate the rate of change of a function (how quick a function is changing), rate of change is known as gradient/tangent. If the tangent is 0 means the slope at the point is flat that is the local minimum point. Gradient is used to find the maximum steep of the slope. In Deep learning need to find the minimum of the steep which is opposite of the actual one so -ve is used.
 
 ## Why it is used in Deep learning?
         Initially Neural Network's weight are init randomly and calculate the loss, these steps are run iteratively. When the loss are plot in a grap it looks like a slop of x^2, So gradient is used to calculate the tangent and move points accordingly
