@@ -1,6 +1,0 @@
-CNN is Convolutional Neural Network
-
-What is Convolutional?
- Convolutional is the 180deg rotation of correlation as of maths.
- But in field of computer vision Convolutional is just finding correlation.
- In CNN we have an image assume (6x6) image, we have an kernel (3x3) matrix by moving kernel over image and produce new image is called convolution
