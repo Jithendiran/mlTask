@@ -110,6 +110,7 @@ $$
 ## Hyperparameter tuning
  - Momentum \
         It will calculate exponentially weighted average of the gradient. It will eleminate the oscillation
+ - Nesterov Accelerated Gradient
  - Decay rate
  - Adam
  - RMSprop
