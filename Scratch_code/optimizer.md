@@ -111,7 +111,12 @@ $$
  - Momentum \
         It will calculate exponentially weighted average of the gradient. It will eleminate the oscillation
  - Nesterov Accelerated Gradient
- - Decay rate
- - Adam
+ - AdaGrad
+ - Adadelta
  - RMSprop
+ - Adam
+ - Nadam
+ - AMSGrad
+ - AdaMax
+ - Decay rate
  - Regularization
