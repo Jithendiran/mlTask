@@ -107,7 +107,7 @@ $$
  - Mini-Batch Gradient Descent
         It will split the dataset into the given amount of batches, and calculate the gradient for that group or subset of the dataset and update the weight, It will be between Vanilla Gradient Descent and Sophisticated Gradient Descent
 
-## Hyperparameter tuning
+## [Hyperparameter tuning](https://www.youtube.com/playlist?list=PLAoF4o7zqskTBdfRT4MD1aXis5iO2reXt)
  - Momentum \
         It will calculate exponentially weighted average of the gradient. It will eleminate the oscillation
  - Nesterov Accelerated Gradient
